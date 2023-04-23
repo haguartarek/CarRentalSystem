@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.logout {
+    float: right;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    .logout:hover {
+        background-color: #ddd;
+        color: black;
+        }
+    .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+
+  }
+  .car{
+    width: 90%;
+    height: 20%;
+    flex:50%;
+    background-color: rgb(233, 231, 231);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-family: 'Poppins', sans-serif;
+  flex-wrap: wrap;
+    
+}
+.card-body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.card{
+    margin: 0 auto;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.car__model{
+    padding-top: 20rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#selectcar{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.car__stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    width: 66%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.car__plate{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.car__year{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.car__speed{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.car__office{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.car__color{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.car__country{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.car__image{
+    width: 33%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.car__stats p{
+    font-size: 1.2rem;
+    color: #333536;
+    text-align: center;
+    margin-bottom: 10px;
+
+    margin: 2px;
+}
+
+.car__stats__model{
+    font-size: 80rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 2rem;
+    margin: 2px;
+}
+.container{
+    margin-top: 30px;
+}
+.car__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+  }
+
+
+  input[type="submit"] {
+    background: #000000;
+	color: white;
+	border-style: outset;
+	border-color: #434443;
+	height: 40px;
+	width: 100px;
+	font: bold 15px Poppins, sans-serif;
+	text-shadow: none;
+    border-radius: 5px;
+
+  }
+
+    input[type="submit"]:hover {
+        background: #434443;
+        color: white;
+        cursor: pointer;
+    }
+
+  .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+
+    }

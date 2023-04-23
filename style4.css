@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  zoom:95%;
+  /*  background: -webkit-linear-gradient(right,#F8F8FF,#B0C4DE,	#F8F8FF);*/
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#searchform {
+  width: max-content;
+  height: 590px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  border: 1px hidden #302d2d;
+  animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transform: translate(+200px, -410px);
+}
+
+#paymentform {
+  width: 300px;
+  height: 100px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  border: 1px hidden #302d2d;
+  animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transform: translate(200px, -475px);
+}
+
+#custmenuheader {
+  font-size: 110px;
+  font-weight: 900;
+  transform: translate(-380px, +140px);
+  font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+  inline-size: 410px;
+  word-break: normal;
+}
+
+#question {
+  transform: translateY(-10px);
+}
+
+#ssearch {
+  transform: translateY(-10px);
+}
+
+#fromlabel {
+  font-weight: bold;
+}
+
+#untillabel {
+  font-weight: bold;
+}
+
+#log {
+  background: #bac7d5;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+
+}
+
+#paymentt {
+  background: #bac7d5;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+
+}
+
+.error {
+  color: #FF0000;
+}
+
+#fcolor {
+  transform: translate(+1px, +2px);
+}
+
+#fstart {
+  transform: translate(+35px, +2px);
+}
+
+#fend {
+  transform: translate(+39px, +2px);
+}
+
+#fmodel {
+  transform: translate(+29px, +2px);
+}
+
+#fbrand {
+  transform: translate(+29px, +2px);
+}
+
+#fprice {
+  transform: translate(+35px, +2px);
+}
+
+#fyear {
+  transform: translate(+39px, +2px);
+}
+
+#foffice {
+  transform: translate(+28px, +2px);
+}
+
+#fspeed {
+  transform: translate(+23px, +2px);
+
+}
+/* 
+#logout {
+  background: #000000;
+  color: white;
+  border-style: outset;
+  border-color: #434443;
+  height: 40px;
+  width: 100px;
+  font: bold 15px Poppins, sans-serif;
+  text-shadow: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+#logout:hover {
+  background: #434443;
+  color: white;
+  cursor: pointer;
+} */

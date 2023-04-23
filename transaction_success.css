@@ -1,0 +1,59 @@
+body {
+    background-image: url('car60.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* display as columns */
+    flex-direction: column;
+    font-family: 'RlFreight', 'HoeflerText-Black', 'Times New Roman', serif;
+
+    /* font-family: 'Poppins',sans serif; */
+    color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    /* transform: translate(-380px, +140px); */
+     font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+     inline-size: 50%;
+    word-break: normal;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: 500;
+    /* transform: translate(-380px, +140px); */
+    text-align: center;
+
+   font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+    inline-size: 70%;
+    word-break: normal;
+  }
+  
+input[type="submit"] {
+    background: #000000;
+    color: white;
+    border-style: outset;
+    border-color: #434443;
+    height: 70px;
+    width: 250px;
+    font: bold 15px Poppins, sans-serif;
+    text-shadow: none;
+    border-radius: 5px;
+
+}
+#submithide{
+  visibility: hidden;
+}
+input[type="submit"]:hover {
+    background: #434443;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+/*  background: -webkit-linear-gradient(right,#F8F8FF,#B0C4DE,	#F8F8FF);*/
+
+}
+* {
+  box-sizing: border-box;
+}
+
+#subphrase{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+font-size: 30px;
+font-weight: 900;
+letter-spacing: +4px;
+line-height: 90px;
+text-transform: none;
+ transform: translateY(+5px);
+}
+
+#carrentals{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+font-size: 65px;
+font-weight: 900;
+letter-spacing: +1px;
+line-height: 90px;
+text-transform: none;
+ transform: translateY(+20px);
+}
+
+#carrentals:before, #carrentals:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 40%;
+    height: 1px;
+    content: '\a0';
+    background-color: black;
+}
+#carrentals:before {
+    margin-left: -40%;
+    text-align: right;
+}
+#CustomerHeader{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ transform: translateY(-10px);
+
+}
+#AdminHeader{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ transform: translateY(-10px);
+}
+
+/*width : 100%;
+height: 720px;
+background-image: url("car1.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}*/
+#customerform {
+  font-family: 'Poppins', sans-serif;
+    width: max-content;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff8f;
+    border-radius: 40px;
+    border: 1px hidden #302d2d;
+    animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    
+    transform: translateY(-30px);
+    transform: translateX(-200px);
+}
+#adminform {
+  font-family: 'Poppins', sans-serif;
+    width: max-content;
+     height: 240px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff8f;
+    border-radius: 40px;
+    border: 1px hidden #302d2d;
+    animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transform: translate(+140px, -350px);
+
+}
+#log {
+  font-family: 'Poppins', sans-serif;
+	background:  #bac7d5;;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+#submitt {
+  font-family: 'Poppins', sans-serif;
+  background: #bac7d5;
+      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px #eee;
+      text-shadow: none;
+}
+#registerr {
+  font-family: 'Poppins', sans-serif;
+  background: #bac7d5;
+      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px #eee;
+      text-shadow: none;
+      transform: translate(-200px,+2px);
+}
+#myform1 {
+transform: translateY(-120px);
+}
+#fname {
+   transform: translateX(+120px);
+
+}
+#femail {
+   transform: translateX(+123px);
+}
+
+#fpassword {
+   transform: translateX(+5px);
+}
+#fcpassword {
+   transform: translateX(+20px);
+}
